@@ -1,4 +1,6 @@
-## Summary
+## Overview
+
+This repo contains a minimum reproducible example of an issue with custom fonts in Expo.
 
 ## Steps to Reproduce
 
@@ -17,7 +19,7 @@ npm install expo-font
 ```
 
 3. Create custom font files in the `assets/fonts` directory. This repository's assets/fonts
-   directory contains the fole 'IBMPlexSansCond-Bold.ttf,' downloaded from [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed?query=ibm+plex+sans+con).
+   directory contains the font `IBMPlexSansCond-Bold.ttf`, downloaded from [Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed?query=ibm+plex+sans+con).
 
 4. Add the following `app.json` snippet under "expo" in `app.json`:
 
