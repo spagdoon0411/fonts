@@ -130,8 +130,8 @@ The following error is logged
     at main(RootComponent) (http://50zna-m-anonymous-8081.exp.direct/node_modules/expo/AppEntry.bundle//&platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=true&transform.routerRoot=app:117466:28)
 ```
 
-The font color is red, indiciating that the style was applied--but that the font itself was not.
+The font color is red, indicating that the style was applied--but that the font itself was not.
 
 ## Expected Behavior
 
-The font should be loaded through `expo-font` and applied to the text, so that the text is red and in the IBM Plex Sans Condensed font.
+The font should be loaded through `expo-font` and applied to the text, so that the text is red and in the IBM Plex Sans Condensed Bold font.
